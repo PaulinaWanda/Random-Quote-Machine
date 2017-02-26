@@ -6,4 +6,6 @@ This project is a part of online front end development course - freeCodeCamp
 -    User Story: I can click a button to show me a new random quote.
 -    User Story: I can press a button to tweet out a quote.
     
-You can see how my project works here: http://codepen.io/PaulinaWanda/pen/grJqvV
+You can see how my project works here: https://paulinawanda.github.io/Random-Quote-Machine/index.html
+
+or here: http://codepen.io/PaulinaWanda/pen/grJqvV
