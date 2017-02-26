@@ -1,0 +1,89 @@
+$social-icons: url("https://s16.postimg.org/5mq8nh6et/socialicons_sm.jpg")
+$main-color: #f55449
+$container-color: #7e8970
+$font-color: #0f1f38
+$shadow-color: #1b4b5a
+$dimension: 47.5px
+body
+  background-color: $main-color
+  color: $font-color
+.container
+  color: $font-color
+  background-color: $container-color
+  width: 50%
+  margin: 5% auto
+  padding: 5% 3%
+  border-radius: 15px 15px 0 15px
+  box-shadow: 12px 12px 5px $shadow-color
+.is-loading
+  filter: blur(2px)
+blockquote
+  padding-bottom: 5%
+  display: flex
+  flex-flow: column nowrap
+  p
+    font-family: 'Shadows Into Light', cursive
+    font-size: 180%
+    text-align: left
+    &:first-letter
+      font-size: 150%
+      line-height: 75%
+footer
+  display: block
+  margin-left: auto
+  cite
+    font-family: "Josefin Sans", sans-serif
+    font-size: 110%
+.buttons
+  display: flex
+  flex-flow: row nowrap
+  justify-content: space-between
+  align-items: center
+.social
+  list-style: none
+  display: flex
+  flex-flow: row wrap
+  position: relative
+  li
+    display: block
+    position: relative
+    width: $dimension
+    height: $dimension
+    background-color:  #aaa
+    box-shadow: 0 0 5px $shadow-color
+    margin: 2px
+    &:hover
+      filter: brightness(80%)
+    &:active
+      filter: brightness(130%)
+    a
+      display: block
+      width: 100%
+      height: 100%
+#twitter
+  background: $social-icons -$dimension 0
+#google
+  background: $social-icons -($dimension*3) 0
+#facebook
+  background: $social-icons 0 0
+button.next
+  display: block
+  background-color: $main-color
+  padding: 12px 20px
+  border-radius: 15px
+  box-shadow: 2px 2px 15px $shadow-color
+  font-family: Lobster, cursive
+  color: $font-color
+p
+  text-align: center
+  font-family: 'Shadows Into Light', cursive
+  a
+    text-decoration: none
+    color: $font-color
+    &:hover
+      font-weight: 900
+    &:visited
+      text-decoration: none
+@media screen and (max-width: 768px)
+  .container
+    width: 90%

@@ -1,0 +1,97 @@
+body {
+  background-color: #f55449;
+  color: #0f1f38; }
+
+.container {
+  color: #0f1f38;
+  background-color: #7e8970;
+  width: 50%;
+  margin: 5% auto;
+  padding: 5% 3%;
+  border-radius: 15px 15px 0 15px;
+  box-shadow: 12px 12px 5px #1b4b5a; }
+
+.is-loading {
+  filter: blur(2px); }
+
+blockquote {
+  padding-bottom: 5%;
+  display: flex;
+  flex-flow: column nowrap; }
+  blockquote p {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 180%;
+    text-align: left; }
+    blockquote p:first-letter {
+      font-size: 150%;
+      line-height: 75%; }
+
+footer {
+  display: block;
+  margin-left: auto; }
+  footer cite {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 110%; }
+
+.buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center; }
+
+.social {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  position: relative; }
+  .social li {
+    display: block;
+    position: relative;
+    width: 47.5px;
+    height: 47.5px;
+    background-color: #aaa;
+    box-shadow: 0 0 5px #1b4b5a;
+    margin: 2px; }
+    .social li:hover {
+      filter: brightness(80%); }
+    .social li:active {
+      filter: brightness(130%); }
+    .social li a {
+      display: block;
+      width: 100%;
+      height: 100%; }
+
+#twitter {
+  background: url("https://s16.postimg.org/5mq8nh6et/socialicons_sm.jpg")-47.5px 0; }
+
+#google {
+  background: url("https://s16.postimg.org/5mq8nh6et/socialicons_sm.jpg")-142.5px 0; }
+
+#facebook {
+  background: url("https://s16.postimg.org/5mq8nh6et/socialicons_sm.jpg") 0 0; }
+
+button.next {
+  display: block;
+  background-color: #f55449;
+  padding: 12px 20px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 15px #1b4b5a;
+  font-family: Lobster, cursive;
+  color: #0f1f38; }
+
+p {
+  text-align: center;
+  font-family: "Shadows Into Light", cursive; }
+  p a {
+    text-decoration: none;
+    color: #0f1f38; }
+    p a:hover {
+      font-weight: 900; }
+    p a:visited {
+      text-decoration: none; }
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%; } }
+
+/*# sourceMappingURL=styles.css.map */
