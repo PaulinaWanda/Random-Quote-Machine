@@ -62,13 +62,13 @@ footer {
       height: 100%; }
 
 #twitter {
-  background: url("https://s16.postimg.org/5mq8nh6et/socialicons_sm.jpg")-47.5px 0; }
+  background: url("socialicons_sm.jpg")-47.5px 0; }
 
 #google {
-  background: url("https://s16.postimg.org/5mq8nh6et/socialicons_sm.jpg")-142.5px 0; }
+  background: url("socialicons_sm.jpg")-142.5px 0; }
 
 #facebook {
-  background: url("https://s16.postimg.org/5mq8nh6et/socialicons_sm.jpg") 0 0; }
+  background: url("socialicons_sm.jpg") 0 0; }
 
 button.next {
   display: block;
